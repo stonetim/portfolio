@@ -1,0 +1,146 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PawBits</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+
+  <!-- Load common libraries -->
+  <script src="https://code.jquery.com/jquery-2.1.0.min.js"
+  integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0="
+  crossorigin="anonymous"></script>
+
+  <!-- Load Vex Dialogs -->
+  <script src="/vex-master/dist/js/vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-os'</script>
+  <link rel="stylesheet" href="/vex-master/dist/css/vex.css" />
+  <link rel="stylesheet" href="/vex-master/dist/css/vex-theme-os.css" />
+
+  <!-- Load google fonts stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500" rel="stylesheet">
+
+  <!-- Load font awesome -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Load foundation -->
+  <link rel="stylesheet" href="foundation-6.2.3-complete/css/foundation.min.css">
+  <script src="foundation-6.2.3-complete/js/vendor/foundation.min.js"></script>
+  <script src="foundation-6.2.3-complete/js/vendor/what-input.js"></script>
+
+  <!-- Load stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Load scripts -->
+  <script src="js/dashboards.js"></script><!-- These are the functions that toggle between dashboards -->
+  <script src="js/nav.js"></script><!-- These are the functions that toggle between navigation menus -->
+  <script src="js/tabs.js"></script><!-- These are the functions that toggle between tabs on the dashboards -->
+  <script src="js/templates.js"></script><!-- This is the function that includes HTML files in the index -->
+
+</head>
+<body>
+
+    <!-- Begin topnav area -->
+
+    <div class="topnav-main">
+        <div data-include="nav/topnav"></div> <!-- Calls the main top nav -->
+    </div>
+    <div class="topnav-social" style="display: none;">
+        <div data-include="nav/social-nav"></div> <!-- Calls the social top nav -->
+    </div>
+
+    <!-- End top nav area -->
+
+    <!-- Begin Side nav area -->
+
+    <div class="sidenav-main">
+        <div data-include="nav/sidenav"></div> <!-- Calls the main side nav -->
+    </div>
+    <div class="sidenav-thin" style="display: none;">
+        <div data-include="nav/sidenav-collapsed"></div><!-- Calls the collapsed side nav -->
+    </div>
+    <div class="sidenav-social" style="display: none;">
+        <div data-include="nav/social-side-nav"></div> <!-- Calls the social side nav -->
+    </div>
+    <div class="sidenav-thin-social" style="display: none;">
+        <div data-include="nav/sidenav-collapsed-social"></div><!-- Calls the collapsed side nav -->
+    </div>
+    <div class="search-result-nav" style="display: none;">
+        <div data-include="nav/search-result-nav"></div><!-- Calls the search result nav -->
+    </div>
+    <div class="search-result-nav-detail" style="display: none;">
+        <div data-include="nav/search-result-detail"></div><!-- Calls the search result detail nav -->
+    </div>
+
+    <!-- End sidenav area -->
+
+    <!-- Begin main content area -->
+
+    <div id="home" style="display: none;" class="dash-container homedash">
+        <div data-include="dashboards/home"></div> <!-- Calls home dashboard -->
+    </div><!-- close div dash-container -->
+
+    <div id="general" style="display: none;" class="dash-container generaldash">
+        <div data-include="dashboards/general"></div> <!-- Calls general dashboard -->
+    </div><!-- close div dash-container -->
+
+    <div id="health" style="display: none;" class="dash-container healthdash">
+        <div data-include="dashboards/health"></div> <!-- Calls health dashboard -->
+    </div><!-- close div dash-container -->
+
+    <div id="activity" style="display: none;" class="dash-container activitydash">
+        <div data-include="dashboards/activity-dash"></div> <!-- Calls activity dashboard -->
+    </div><!-- close div dash-container -->
+
+    <div id="activity" style="display: none;" class="dash-container caregivingdash">
+        <div data-include="dashboards/caregiving-dash"></div> <!-- Calls caregiving dashboard -->
+    </div><!-- close div dash-container -->
+
+    <div id="friends" style="display: none;" class="dash-container friendsdash">
+        <div data-include="dashboards/friends"></div> <!-- Calls friends dashboard -->
+    </div>
+
+    <div id="requests" style="display: none;" class="dash-container requestsdash">
+        <div data-include="dashboards/friends"></div> <!-- Calls requests dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container petinfodash">
+        <div data-include="dashboards/pet-info"></div> <!-- Calls petinfo dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container usersettingsdash">
+        <div data-include="dashboards/user-settings"></div> <!-- Calls usersettings dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container boardingdash">
+        <div data-include="dashboards/boarding-dashboard"></div> <!-- Calls boardingdash dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container caregiverdash">
+        <div data-include="dashboards/caregiver-dashboard"></div> <!-- Calls caregiverdash dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container groomerdash">
+        <div data-include="dashboards/groomer-dashboard"></div> <!-- Calls groomerdash dashboard -->
+    </div>
+
+    <div id="petinfo" style="display: none;" class="dash-container vetdash">
+        <div data-include="dashboards/vet-dashboard"></div> <!-- Calls vetdash dashboard -->
+    </div>
+
+    <div id="maps" style="display: none;" class="dash-container mapsdash">
+        <div data-include="dashboards/maps"></div><!-- Calls maps dashboard -->
+    </div>
+    <button class="green-btn mapsbtn" onclick="showMenu();">Show Menu</button><!-- This button shows the side menu on the map page for mobile displays -->
+    <button class="green-btn mapsbtn2" onclick="showMenu2();">Show Menu</button><!-- This button shows the deatail side menu on the map page for mobile displays -->
+
+    <div id="small-display-message">
+        <div data-include="dashboards/dash-components/small-displays"></div><!-- Calls the small display message -->
+    </div>
+
+    <!-- End main content area -->
+</body>
+
+</html>

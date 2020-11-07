@@ -1,0 +1,649 @@
+<div class="row">
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big" style="display: inline-block;">General Info<a class="edit-title" onclick="showPetinfo();">Edit</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <div class="container-10">
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <img style="padding-right: 15px;" src="../../../assets/img/pet-picture.png" />
+                            <p class="hard-title">Aurora</p>
+                        </div><!-- close div medium-12 columns -->
+                    </div><!-- close div row -->
+                    <div class="spacer-25"></div><!-- close div spacer-25 -->
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Breed</p>
+                            <p class="content">German Shepherd Mix</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Age</p>
+                            <p class="content">3 years 6 months</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Gender</p>
+                            <p class="content">Female</p>
+                        </div><!-- close div medium-4 columns -->
+                    </div><!-- close div row -->
+                    <div class="spacer-10"></div><!-- close div spacer-10 -->
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Color</p>
+                            <p class="content">Black/Brown</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Temperment</p>
+                            <p class="content">Calm</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">City License</p>
+                            <p class="content">Good Standing</p>
+                        </div><!-- close div medium-4 columns -->
+                    </div><!-- close div row -->
+                    <div class="spacer-10"></div><!-- close div spacer-10 -->
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Microchip ID</p>
+                            <p class="content">n/a</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Insurance</p>
+                            <p class="content">No</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Preventatives</p>
+                            <p class="content">Up to date</p>
+                        </div><!-- close div medium-4 columns -->
+                    </div><!-- close div row -->
+                    <div class="spacer-10"></div><!-- close div spacer-10 -->
+                        <div class="row">
+                            <div class="medium-12 columns">
+                                <p class="soft-title">Notes</p>
+                                <p class="content">No notes have been made...</p>
+                            </div><!-- close div medium-12 columns -->
+                        </div><!-- close div row -->
+                </div><!-- close div container-10 -->
+            </div><!-- close div white-box-2 -->
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big" style="display: inline-block;">Reminders<a class="edit-title" onclick="showPetinfo();">Add</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="soft-title">Reminder</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="soft-title">Date/Time</p>
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="content">Feed Aurora Dinner</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017 at 7:30 pm</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="done"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+
+            </div><!-- close div white-box-2 -->
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+</div><!-- close div row -->
+<div class="spacer-10"></div><!-- close div spacer-10 -->
+<div class="row">
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big" style="display: inline-block;">Caretaker Info<a class="edit-title" onclick="showPetinfo();">Edit</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li id="genvetbtn" class="care-item" style="border-color: #6ab37d;">
+                        <a onclick="showGenVet();" class="care-btn">Veterinarian</a>
+                    </li><!-- close care-item -->
+                    <li id="groomingbtn" class="care-item">
+                        <a onclick="showGrooming();" class="care-btn">Grooming</a>
+                    </li><!-- close care-item -->
+                    <li id="boardingbtn" class="care-item">
+                        <a onclick="showBoarding();" class="care-btn">Boarding</a>
+                    </li><!-- close care-item -->
+                    <li id="caregiversbtn" class="care-item">
+                        <a onclick="showCaregivers();" class="care-btn">Caregivers</a>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+                <!-- BEGIN VET INFO CONTENT AREA -->
+                <!-- BEGIN GENVET TAB -->
+
+                <div id="genvet">
+                <div class="container-10">
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Clinic</p>
+                            <p class="content">FMA Animal Hospital</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Preferred Vet</p>
+                            <p class="content">Dr. Ron Bachman</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Phone</p>
+                            <p class="content">(913) 262-1600</p>
+                        </div><!-- close div medium-4 columns -->
+                    </div><!-- close div row -->
+                    <div class="spacer-25"></div><!-- close div spacer-25 -->
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Address</p>
+                            <p class="content">4755 Rainbow Blvd<br />Westwood, KS 66205</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Hours</p>
+                            <div class="container-10">
+                                <div class="row">
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Mon</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Tue</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Wed</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Thu</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Fri</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Sat</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">8:00<sup>AM</sup> - 5:00<sup>PM</sup></p>
+                                    </div><!-- close div medium-9 columns -->
+                                    <div class="medium-3 columns">
+                                        <p class="content-small">Sun</p>
+                                    </div><!-- close div medium-3 columns -->
+                                    <div class="medium-9 columns">
+                                        <p class="content-small">Closed</p>
+                                    </div><!-- close div medium-9 columns -->
+                                </div><!-- close div row -->
+                            </div><!-- close div container-10 -->
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-4 columns">
+                            <div class="spacer-10"></div><!-- close div spacer-10 -->
+                            <a href="#">
+                                <div class="grey-btn">
+                                    <p class="btn-text-grey">Visit Website</p>
+                                </div><!-- close div grey-btn -->
+                            </a>
+                            <div class="spacer-10"></div><!-- close div spacer-10 -->
+                            <a class="book-now">
+                                <div class="green-btn-dialog">
+                                    <p class="btn-text-green">Book Now</p>
+                                </div><!-- close div green-btn -->
+                            </a>
+                        </div><!-- close div medium-4 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div container-10 -->
+            </div><!-- close div #genvet -->
+
+            <!-- END GENVET TAB -->
+            <!-- BEGIN GROOMING TAB -->
+
+            <div id="grooming" style="display: none;">
+            <div class="container-10">
+                <div class="row">
+                    <div class="medium-4 columns">
+                        <p class="soft-title">Clinic</p>
+                        <p class="content">FMA Animal Grooming</p>
+                    </div><!-- close div medium-4 columns -->
+                    <div class="medium-4 columns">
+                        <p class="soft-title">Preferred Vet</p>
+                        <p class="content">Dr. Ron Bachman</p>
+                    </div><!-- close div medium-4 columns -->
+                    <div class="medium-4 columns">
+                        <p class="soft-title">Phone</p>
+                        <p class="content">(913) 262-1600</p>
+                    </div><!-- close div medium-4 columns -->
+                </div><!-- close div row -->
+                <div class="spacer-25"></div><!-- close div spacer-25 -->
+                <div class="row">
+                    <div class="medium-4 columns">
+                        <p class="soft-title">Address</p>
+                        <p class="content">4755 Rainbow Blvd<br />Westwood, KS 66205</p>
+                    </div><!-- close div medium-4 columns -->
+                    <div class="medium-4 columns">
+                        <p class="soft-title">Hours</p>
+                        <div class="container-10">
+                            <div class="row">
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Mon</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Tue</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Wed</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Thu</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Fri</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Sat</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">8:00<sup>AM</sup> - 5:00<sup>PM</sup></p>
+                                </div><!-- close div medium-9 columns -->
+                                <div class="medium-3 columns">
+                                    <p class="content-small">Sun</p>
+                                </div><!-- close div medium-3 columns -->
+                                <div class="medium-9 columns">
+                                    <p class="content-small">Closed</p>
+                                </div><!-- close div medium-9 columns -->
+                            </div><!-- close div row -->
+                        </div><!-- close div container-10 -->
+                    </div><!-- close div medium-4 columns -->
+                    <div class="medium-4 columns">
+                        <div class="spacer-10"></div><!-- close div spacer-10 -->
+                        <a href="#">
+                            <div class="grey-btn">
+                                <p class="btn-text-grey">Visit Website</p>
+                            </div><!-- close div grey-btn -->
+                        </a>
+                        <div class="spacer-10"></div><!-- close div spacer-10 -->
+                        <a class="book-now">
+                            <div class="green-btn-dialog">
+                                <p class="btn-text-green">Book Now</p>
+                            </div><!-- close div green-btn -->
+                        </a>
+                    </div><!-- close div medium-4 columns -->
+                </div><!-- close div row -->
+            </div><!-- close div container-10 -->
+        </div><!-- close div #grooming -->
+
+        <!-- END GROOMING TAB -->
+        <!-- BEGIN BOARDING TAB -->
+
+        <div id="boarding" style="display: none;">
+        <div class="container-10">
+            <div class="row">
+                <div class="medium-4 columns">
+                    <p class="soft-title">Clinic</p>
+                    <p class="content">FMA Animal Boarding</p>
+                </div><!-- close div medium-4 columns -->
+                <div class="medium-4 columns">
+                    <p class="soft-title">Preferred Vet</p>
+                    <p class="content">Dr. Ron Bachman</p>
+                </div><!-- close div medium-4 columns -->
+                <div class="medium-4 columns">
+                    <p class="soft-title">Phone</p>
+                    <p class="content">(913) 262-1600</p>
+                </div><!-- close div medium-4 columns -->
+            </div><!-- close div row -->
+            <div class="spacer-25"></div><!-- close div spacer-25 -->
+            <div class="row">
+                <div class="medium-4 columns">
+                    <p class="soft-title">Address</p>
+                    <p class="content">4755 Rainbow Blvd<br />Westwood, KS 66205</p>
+                </div><!-- close div medium-4 columns -->
+                <div class="medium-4 columns">
+                    <p class="soft-title">Hours</p>
+                    <div class="container-10">
+                        <div class="row">
+                            <div class="medium-3 columns">
+                                <p class="content-small">Mon</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Tue</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Wed</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Thu</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Fri</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Sat</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">8:00<sup>AM</sup> - 5:00<sup>PM</sup></p>
+                            </div><!-- close div medium-9 columns -->
+                            <div class="medium-3 columns">
+                                <p class="content-small">Sun</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-9 columns">
+                                <p class="content-small">Closed</p>
+                            </div><!-- close div medium-9 columns -->
+                        </div><!-- close div row -->
+                    </div><!-- close div container-10 -->
+                </div><!-- close div medium-4 columns -->
+                <div class="medium-4 columns">
+                    <div class="spacer-10"></div><!-- close div spacer-10 -->
+                    <a href="#">
+                        <div class="grey-btn">
+                            <p class="btn-text-grey">Visit Website</p>
+                        </div><!-- close div grey-btn -->
+                    </a>
+                    <div class="spacer-10"></div><!-- close div spacer-10 -->
+                    <a class="book-now">
+                        <div class="green-btn-dialog">
+                            <p class="btn-text-green">Book Now</p>
+                        </div><!-- close div green-btn -->
+                    </a>
+                </div><!-- close div medium-4 columns -->
+            </div><!-- close div row -->
+        </div><!-- close div container-10 -->
+    </div><!-- close div #boarding -->
+
+    <!-- END BOARDING TAB -->
+    <!-- BEGIN CAREGIVERS TAB -->
+
+    <div id="caregivers" style="display: none;">
+    <div class="container-10">
+        <div class="row">
+            <div class="medium-4 columns">
+                <p class="soft-title">Clinic</p>
+                <p class="content">FMA Animal Caregivers</p>
+            </div><!-- close div medium-4 columns -->
+            <div class="medium-4 columns">
+                <p class="soft-title">Preferred Vet</p>
+                <p class="content">Dr. Ron Bachman</p>
+            </div><!-- close div medium-4 columns -->
+            <div class="medium-4 columns">
+                <p class="soft-title">Phone</p>
+                <p class="content">(913) 262-1600</p>
+            </div><!-- close div medium-4 columns -->
+        </div><!-- close div row -->
+        <div class="spacer-25"></div><!-- close div spacer-25 -->
+        <div class="row">
+            <div class="medium-4 columns">
+                <p class="soft-title">Address</p>
+                <p class="content">4755 Rainbow Blvd<br />Westwood, KS 66205</p>
+            </div><!-- close div medium-4 columns -->
+            <div class="medium-4 columns">
+                <p class="soft-title">Hours</p>
+                <div class="container-10">
+                    <div class="row">
+                        <div class="medium-3 columns">
+                            <p class="content-small">Mon</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Tue</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Wed</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Thu</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Fri</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">7:00<sup>AM</sup> - 7:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Sat</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">8:00<sup>AM</sup> - 5:00<sup>PM</sup></p>
+                        </div><!-- close div medium-9 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content-small">Sun</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-9 columns">
+                            <p class="content-small">Closed</p>
+                        </div><!-- close div medium-9 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div container-10 -->
+            </div><!-- close div medium-4 columns -->
+            <div class="medium-4 columns">
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+                <a href="#">
+                    <div class="grey-btn">
+                        <p class="btn-text-grey">Visit Website</p>
+                    </div><!-- close div grey-btn -->
+                </a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+                <a class="book-now">
+                    <div class="green-btn-dialog">
+                        <p class="btn-text-green">Book Now</p>
+                    </div><!-- close div green-btn -->
+                </a>
+            </div><!-- close div medium-4 columns -->
+        </div><!-- close div row -->
+    </div><!-- close div container-10 -->
+</div><!-- close div #caregivers -->
+
+<!-- END CAREGIVERS TAB -->
+
+        <!-- END GROOMING TAB -->
+
+
+                <div class="spacer-25"></div><!-- close div spacer-25 -->
+
+                <!-- END VET INFO CONTENT AREA -->
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="content" style="float: left; display: inline-block; padding-left: 10px;">Primary Care</p>
+                <p class="emergency"><a style="color: inherit;" href="#">Emergency Care<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big" style="display: inline-block;">Activity Feed</p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li id="exercisebtn" class="care-item" style="border-color: #6ab37d;">
+                        <a onclick="showExercise();" class="care-btn">Exercise</a>
+                    </li><!-- close care-item -->
+                    <li id="nutritionbtn" class="care-item">
+                        <a onclick="showNutrition();" class="care-btn">Nutrition</a>
+                    </li><!-- close care-item -->
+                    <li id="hydrationbtn" class="care-item">
+                        <a onclick="showHydration();" class="care-btn">Hydration</a>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+                <!-- BEGIN CONTENT AREA -->
+
+                <!-- BEGIN EXERCISE TAB -->
+
+                <div id="exercise">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="soft-title">Where?</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="soft-title">Date/Time</p>
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="content">Take Aurora on a Walk</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017 7:00 <sup>pm</sup></p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="done"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #exercise -->
+
+                <!-- END EXERCISE TAB -->
+                <!-- BEGIN NUTRITON TAB -->
+
+                <div id="nutrition" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="soft-title">Where?</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="soft-title">Date/Time</p>
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="content">Fill Aurora's food bowl</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017 7:00 <sup>pm</sup></p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="done"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #nutrition -->
+
+                <!-- END NUTRITON TAB -->
+                <!-- BEGIN HYDRATION TAB -->
+
+                <div id="hydration" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="soft-title">Where?</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="soft-title">Date/Time</p>
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="content">Fill Aurora's water bowl</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017 7:00 <sup>pm</sup></p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="done"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #hydration -->
+
+            <!-- END EXERCISE TAB -->
+
+
+                <!-- END CONTENT AREA -->
+
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="emergency"><a style="color: inherit;" href="#">View More<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+</div><!-- close div row -->
+<div class="spacer-10"></div><!-- close div spacer-10 -->

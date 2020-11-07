@@ -1,0 +1,570 @@
+<div class="row">
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big">Veterinarian Info<a class="edit-title" onclick="showPetinfo();">Edit</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li id="vetbtn" class="care-item" style="border-color: #6ab37d;">
+                        <a onclick="showVet();" class="care-btn">Veterinarian</a>
+                    </li><!-- close care-item -->
+                    <li id="emergencybtn" class="care-item">
+                        <a onclick="showEmergency();" class="care-btn">Emergency</a>
+                    </li><!-- close care-item -->
+                    <li id="specialistsbtn" class="care-item">
+                        <a onclick="showSpecialists();" class="care-btn">Specialists</a>
+                    </li><!-- close care-item -->
+                    <li id="visitsbtn" class="care-item">
+                        <a onclick="showVisits();" class="care-btn">Visits</a>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+                <!-- BEGIN VET TAB  -->
+
+                <div id="vet">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="soft-title">Where?</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="soft-title">Date</p>
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-5 columns">
+                            <p class="content">BluePearl Veterinary Partners</p>
+                        </div><!-- close div medium-5 columns -->
+                        <div class="medium-7 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-7 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #vet -->
+
+            <!-- END VET TAB -->
+            <!-- BEGIN EMERGENCY TAB -->
+
+            <div id="emergency" style="display: none;">
+            <div class="container-10">
+                <div class="area-contain">
+                <div class="row">
+                    <div class="medium-5 columns">
+                        <p class="soft-title">Where?</p>
+                    </div><!-- close div medium-5 columns -->
+                    <div class="medium-7 columns">
+                        <p class="soft-title">Date</p>
+                    </div><!-- close div medium-7 columns -->
+                </div><!-- close div row -->
+            </div><!-- close div area-contain -->
+                <hr />
+                <div class="row">
+                    <div class="medium-5 columns">
+                        <p class="content">BluePearl Veterinary Partners (emergency)</p>
+                    </div><!-- close div medium-5 columns -->
+                    <div class="medium-7 columns">
+                        <p class="content" style="display: inline-block;">June 20, 2017</p>
+                        <ul class="reminder-nav">
+                            <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                            <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                            <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                        </ul><!-- close ul reminder-nav -->
+                    </div><!-- close div medium-7 columns -->
+                </div><!-- close div row -->
+                <hr />
+            </div><!-- close div container-10 -->
+        </div><!-- close div #emergency -->
+
+        <!-- END EMERGENCY TAB -->
+        <!-- BEGIN SPECIALISTS TAB -->
+
+        <div id="specialists" style="display: none;">
+        <div class="container-10">
+            <div class="area-contain">
+            <div class="row">
+                <div class="medium-5 columns">
+                    <p class="soft-title">Where?</p>
+                </div><!-- close div medium-5 columns -->
+                <div class="medium-7 columns">
+                    <p class="soft-title">Date</p>
+                </div><!-- close div medium-7 columns -->
+            </div><!-- close div row -->
+        </div><!-- close div area-contain -->
+            <hr />
+            <div class="row">
+                <div class="medium-5 columns">
+                    <p class="content">BluePearl Veterinary Partners (specialists)</p>
+                </div><!-- close div medium-5 columns -->
+                <div class="medium-7 columns">
+                    <p class="content" style="display: inline-block;">June 20, 2017</p>
+                    <ul class="reminder-nav">
+                        <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                        <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                        <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                    </ul><!-- close ul reminder-nav -->
+                </div><!-- close div medium-7 columns -->
+            </div><!-- close div row -->
+            <hr />
+        </div><!-- close div container-10 -->
+    </div><!-- close div #specialists -->
+
+    <!-- END SPECIALISTS TAB -->
+    <!-- BEGIN VISITS TAB -->
+
+    <div id="visits" style="display: none;">
+    <div class="container-10">
+        <div class="area-contain">
+        <div class="row">
+            <div class="medium-5 columns">
+                <p class="soft-title">Where?</p>
+            </div><!-- close div medium-5 columns -->
+            <div class="medium-7 columns">
+                <p class="soft-title">Date</p>
+            </div><!-- close div medium-7 columns -->
+        </div><!-- close div row -->
+    </div><!-- close div area-contain -->
+        <hr />
+        <div class="row">
+            <div class="medium-5 columns">
+                <p class="content">BluePearl Veterinary Partners (visits)</p>
+            </div><!-- close div medium-5 columns -->
+            <div class="medium-7 columns">
+                <p class="content" style="display: inline-block;">June 20, 2017</p>
+                <ul class="reminder-nav">
+                    <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                    <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                    <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                </ul><!-- close ul reminder-nav -->
+            </div><!-- close div medium-7 columns -->
+        </div><!-- close div row -->
+        <hr />
+    </div><!-- close div container-10 -->
+</div><!-- close div #visits -->
+
+    <!-- END VISITS TAB -->
+<!-- END VET INFO CONTENT AREA -->
+
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="emergency"><a style="color: inherit;" href="#">View More<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+
+    <!-- BEGIN MEDICAL HISTORY NAV AREA -->
+
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big">Medical History<a class="edit-title" onclick="showPetinfo();">Add</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li id="allergybtn" class="care-item" style="border-color: #6ab37d;">
+                        <a onclick="showAllergies();" class="care-btn">Allergies</a>
+                    </li><!-- close care-item -->
+                    <li id="conditionsbtn" class="care-item">
+                        <a onclick="showConditions();" class="care-btn">Conditions</a>
+                    </li><!-- close care-item -->
+                    <li id="medicationsbtn" class="care-item">
+                        <a onclick="showMedications();" class="care-btn">Medications</a>
+                    </li><!-- close care-item -->
+                    <li id="vaccinesbtn" class="care-item">
+                        <a onclick="showVaccines();" class="care-btn">Vaccines</a>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+        <!-- END MEDICAL HISTORY NAV AREA -->
+        <!-- BEGIN MEDICAL HISTORY CONTENT AREA -->
+
+            <!-- BEGIN ALLERGIES TAB -->
+            <div id="allergies">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Allergen</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="soft-title">Reaction</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="soft-title">On-set</p>
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Dairy</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">Severe</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div>
+
+            <!-- END ALLERGIES TAB -->
+            <!-- BEGIN CONDITIONS TAB -->
+
+            <div id="conditions" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <p class="soft-title">Condition</p>
+                        </div><!-- close div medium-6 columns -->
+                        <div class="medium-6 columns">
+                            <p class="soft-title">On-set</p>
+                        </div><!-- close div medium-6 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <p class="content">Hip Hysplasia</p>
+                        </div><!-- close div medium-6 columns -->
+                        <div class="medium-6 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div>
+
+            <!-- END CONDITIONS TAB -->
+            <!-- BEGIN MEDICATIONS TAB -->
+
+            <div id="medications" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                        <div class="row">
+                            <div class="medium-4 columns">
+                                <p class="soft-title">Medication</p>
+                            </div><!-- close div medium-4 columns -->
+                            <div class="medium-3 columns">
+                                <p class="soft-title">Started</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-5 columns">
+                                <p class="soft-title">Stop Taking</p>
+                            </div><!-- close div medium-5 columns -->
+                        </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Accel Oxy <a href="#">Instructions</a></p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">June 20. 2017</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2018</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div>
+
+            <!-- END MEDICATIONS TAB -->
+            <!-- BEGIN VACCINES TAB -->
+
+            <div id="vaccines" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                        <div class="row">
+                            <div class="medium-4 columns">
+                                <p class="soft-title">Vaccines</p>
+                            </div><!-- close div medium-4 columns -->
+                            <div class="medium-3 columns">
+                                <p class="soft-title">Given</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-5 columns">
+                                <p class="soft-title">Expiry</p>
+                            </div><!-- close div medium-5 columns -->
+                        </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Bordetella Bronchiseptica</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">June 20,2017</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2018</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div>
+
+            <!-- END VACCINES TAB -->
+
+        <!-- END MEDICAL HISTORY CONTENT AREA -->
+
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="emergency"><a style="color: inherit;" href="#">View More<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+</div><!-- close div row -->
+<div class="spacer-10"></div><!-- close div spacer-10 -->
+<div class="row">
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big">Caretaker Info<a class="edit-title" onclick="showPetinfo();">Edit</a></p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li class="care-item">
+                        <a href="#" class="care-btn">Current</a>
+                        <p class="weight"><strong>59 lbs</strong></p>
+                        <p class="weight-sub">-0%<br />vs. last 7 days</p>
+                    </li><!-- close care-item -->
+
+                <!-- BEGIN WEIGHT CONTENT AREA -->
+
+                    <li class="care-item">
+                        <a href="#" class="care-btn">Yearly Average</a>
+                        <p class="weight">59 lbs</p>
+                        <p class="weight-sub">-0%<br />vs. 2016</p>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+                <!-- END WEIGHT CONTENT AREA -->
+
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="emergency"><a style="color: inherit;" href="#">View More<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+    <div class="medium-6 columns size-controller">
+        <div class="box-title">
+            <p class="soft-title-big">Medical Documents</p>
+        </div><!-- close div box-title -->
+        <div class="white-box-2-container">
+            <div class="white-box-2">
+                <ul class="care-nav">
+                    <li id="allergydocbtn" class="care-item" style="border-color: #6ab37d;">
+                        <a onclick="showAllergiesDoc();" class="care-btn">Allergies</a>
+                    </li><!-- close care-item -->
+                    <li id="conditionsdocbtn" class="care-item">
+                        <a onclick="showConditionsDoc();" class="care-btn">Conditions</a>
+                    </li><!-- close care-item -->
+                    <li id="medicationsdocbtn" class="care-item">
+                        <a onclick="showMedicationsDoc();" class="care-btn">Medications</a>
+                    </li><!-- close care-item -->
+                    <li id="vaccinesdocbtn" class="care-item">
+                        <a onclick="showVaccinesDoc();" class="care-btn">Vaccines</a>
+                    </li><!-- close care-item -->
+                </ul><!-- close care-nav -->
+
+                <!-- BEGIN MEDICAL DOCUMENTS CONTENT AREA -->
+                <div id="allergiesdoc">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="soft-title">Allergen</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="soft-title">Reaction</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="soft-title">On-set</p>
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Dairy</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">Severe</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #allergiesdoc -->
+
+            <!-- END ALLERGIES TAB -->
+            <!-- BEGIN CONDITIONS TAB -->
+
+            <div id="conditionsdoc" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <p class="soft-title">Condition</p>
+                        </div><!-- close div medium-6 columns -->
+                        <div class="medium-6 columns">
+                            <p class="soft-title">On-set</p>
+                        </div><!-- close div medium-6 columns -->
+                    </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <p class="content">Hip Hysplasia</p>
+                        </div><!-- close div medium-6 columns -->
+                        <div class="medium-6 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2017</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #conditionsdoc -->
+
+            <!-- END CONDITIONS TAB -->
+            <!-- BEGIN MEDICATIONS TAB -->
+
+            <div id="medicationsdoc" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                        <div class="row">
+                            <div class="medium-4 columns">
+                                <p class="soft-title">Medication</p>
+                            </div><!-- close div medium-4 columns -->
+                            <div class="medium-3 columns">
+                                <p class="soft-title">Started</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-5 columns">
+                                <p class="soft-title">Stop Taking</p>
+                            </div><!-- close div medium-5 columns -->
+                        </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Accel Oxy <a href="#">Instructions</a></p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">June 20. 2017</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2018</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #medicationsdoc -->
+
+            <!-- END MEDICATIONS TAB -->
+            <!-- BEGIN VACCINES TAB -->
+
+            <div id="vaccinesdoc" style="display: none;">
+                <div class="container-10">
+                    <div class="area-contain">
+                        <div class="row">
+                            <div class="medium-4 columns">
+                                <p class="soft-title">Vaccines</p>
+                            </div><!-- close div medium-4 columns -->
+                            <div class="medium-3 columns">
+                                <p class="soft-title">Given</p>
+                            </div><!-- close div medium-3 columns -->
+                            <div class="medium-5 columns">
+                                <p class="soft-title">Expiry</p>
+                            </div><!-- close div medium-5 columns -->
+                        </div><!-- close div row -->
+                </div><!-- close div area-contain -->
+                    <hr />
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <p class="content">Bordetella Bronchiseptica</p>
+                        </div><!-- close div medium-4 columns -->
+                        <div class="medium-3 columns">
+                            <p class="content">June 20,2017</p>
+                        </div><!-- close div medium-3 columns -->
+                        <div class="medium-5 columns">
+                            <p class="content" style="display: inline-block;">June 20, 2018</p>
+                            <ul class="reminder-nav">
+                                <li class="r-nav-item"><a href="#"><div class="doc"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="trash"></div></a></li>
+                                <li class="r-nav-item"><a href="#"><div class="menus"></div></a></li>
+                            </ul><!-- close ul reminder-nav -->
+                        </div><!-- close div medium-5 columns -->
+                    </div><!-- close div row -->
+                    <hr />
+                </div><!-- close div container-10 -->
+            </div><!-- close div #vaccinesdoc -->
+
+            <!-- END VACCINES TAB -->
+
+
+        <!-- END MEDICAL DOCUMENTS CONTENT AREA -->
+
+            </div><!-- close div white-box-2 -->
+            <div class="care-bottom">
+                <hr />
+                <p class="emergency"><a style="color: inherit;" href="#">View More<i class="fa fa-angle-right" style="padding-left: 10px;" aria-hidden="true"></i></a>
+                <div class="spacer-10"></div><!-- close div spacer-10 -->
+            </div>
+        </div><!-- close div white-box-2-container -->
+    </div><!-- close div medium-6 columns -->
+</div><!-- close div row -->
+<div class="spacer-10"></div><!-- close div spacer-10 -->

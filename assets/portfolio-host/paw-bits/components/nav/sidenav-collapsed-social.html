@@ -1,0 +1,26 @@
+<div class="white-side-thin">
+    <div class="spacer-50"></div><!-- close div spacer-50 -->
+    <ul>
+        <li style="border-top: none !important;" id="nav"><button id="home" onclick="showHome();" class="nav">
+            <div class="side-nav-img-home"></div>
+        </button></li><!-- close li home link -->
+        <li>
+            <input type="checkbox" checked onclick="expandMenu();">
+            <i></i>
+            <div class="side-nav-img-dashboard"></div>
+            <p class="content" style="margin-top: 0px;" id="nav"><button id="general" onclick="showGeneral();" class="side-nav-item nav">General</button></p>
+            <p class="content" style="margin-top: 0px;"><button id="health" onclick="showHealth();" class="side-nav-item nav">Health</button></p>
+            <p class="content" style="margin-top: 0px;"><button id="activity" onclick="showActivity();" class="side-nav-item nav">Activity</button></p>
+            <p class="content" style="margin-top: 0px;"><button id="caregiving" onclick="showCaregiving();" class="side-nav-item">Caregiving</button></p>
+        </li><!-- close li dashboard links -->
+        <li>
+            <input type="checkbox" checked onclick="expandMenu();">
+            <i></i>
+            <div class="side-nav-img-social"></div>
+            <p class="content" style="margin-top: 0px;"><button id="friends" onclick="showFriends();" class="side-nav-item nav">Friends</button></p>
+            <p class="content" style="margin-top: 0px;"><button id="activity" onclick="showActivity();" class="side-nav-item nav">Activities</button></p>
+            <p class="content" style="margin-top: 0px;"><button id="requests" onclick="showRequests();" class="side-nav-item nav">Requests</button></p>
+        </li><!-- close li social links -->
+    </ul><!-- close ul accordion menu -->
+    <p class="content" style="margin-top: 0px; position: absolute; bottom: 26%; padding-left: 5px;"><button id="expand" onclick="showSidenavSocial();" class="side-nav-item nav" style="font-size: 12px;">Expand<i class="fa fa-caret-right" aria-hidden="true" style="padding-left: 5px; display: inline-block;"></i></button></p>
+</div><!-- close div white-side-thin -->
