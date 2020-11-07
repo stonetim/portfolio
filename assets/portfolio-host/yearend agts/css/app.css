@@ -1,0 +1,836 @@
+/*--------- Year End landing page style sheet   ---------*/
+
+/*
+*
+* - 1.0 Main Styles
+* - - 1.1 Text Formatting
+* - - 1.2 Div Formatiting
+* - 2.0 Media Queries
+* - - 2.1 Small Phones
+* - - 2.2 Standard Phones
+* - - 2.3 Large Phones
+* - - 2.4 Tablets
+* - - 2.5 Small Displays
+* - - 2.6 Large Displays
+*
+*/
+
+/*---------   1.0 Main styles   ---------*/
+
+body, html, .main {
+    height: 100%;
+}
+
+/*--- 1.1 Text Formatting ---*/
+
+.section-title hr {
+	border-bottom: 5px dotted #fff;
+	margin: 5px;
+}
+.section-title h1 {
+	font-size: 65px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 5px;
+	padding: 5px;
+	color: #fff;
+}
+.section-title h1 strong {
+	font-weight: 600;
+	font-size: 100px;
+	letter-spacing: 15px;
+}
+.section-title h2 {
+	font-size: 50px;
+	font-style: italic;
+    font-weight: 400;
+	font-family: 'Lato', serif;
+	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 10px;
+	padding: 5px;
+}
+.section-content p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+.section-content strong {
+	font-weight: 600;
+}
+.orange {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 600 !important;
+	color: #FF9027;
+	text-transform: uppercase;
+}
+.section-2-content p {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+a {
+	color: #FF9027;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	-webkit-transition: .8s;
+	transition: .8s;
+}
+a:hover {
+	color: #ff2100;
+	text-decoration: underline;
+}
+.section-2-title hr {
+	border-bottom: 15px solid rgba(29, 101, 168, 0.73);
+}
+.section-2-title h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	color: #FF9027;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 15px;
+	line-height: 30px;
+}
+.section-2-title h1 strong {
+    font-family: "proxima-nova";
+    font-size: 100px;
+    font-weight: 900 !important;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-2-title h2 {
+	color: #FF9027;
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 60px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-2-title h3 {
+	display: inline-block;
+	font-size: 29px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #FF9027;
+	text-transform: uppercase;
+	text-align: center;
+}
+.hard {
+	font-size: 29px !important;
+}
+.soft {
+	font-size: 32px !important;
+	line-height: 32px !important;
+}
+.soft-2 {
+	font-size: 40px !important;
+	line-height: 32px !important;
+    margin-top: 15px !important;
+}
+
+/*--- 1.2 Div Formatting ---*/
+
+.year-end-1 {
+	background-image: url('../img/AGTS_Building2016IMG_7280-c.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 955px;
+}
+.year-end-2 {
+	background-image: url('../img/year-end-cassidy.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 955px;
+}
+.blue-box {
+	background-color: rgba(29, 101, 168, 0.73);
+	height: 955px;
+	padding-top: 50px;
+}
+.orange-box {
+    background-color: rgba(253, 98, 75, 0.78);
+    height: 955px;
+    padding-top: 50px;
+}
+.green-box {
+    background-color: rgba(55, 187, 95, 0.72);
+    height: 955px;
+    padding-top: 50px;
+}
+.white-box {
+	background-color: rgba(255, 255, 255, 0.90);
+	height: 500px;
+	padding-top: 50px;
+}
+.img-blue {
+	background-color: #fff;
+	border: 1px solid rgba(29, 101, 168, 0.73);
+	border-radius: 300px;
+}
+.img-orange {
+    background-color: #fff;
+	border: 1px solid rgba(253, 98, 75, 0.78);
+	border-radius: 300px;
+}
+.img-green {
+    background-color: #fff;
+	border: 1px solid rgba(55, 187, 95, 0.72);
+	border-radius: 300px;
+}
+.year-nav {
+    background-color: #FF9027;
+    list-style-type: none;
+    margin-left: 0px;
+    height: 55px;
+}
+.year-nav-blue {
+    background-color: rgba(29, 101, 168, 0.73);
+    list-style-type: none;
+    margin-left: 0px;
+    height: 55px;
+}
+.full-btn-left {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 250px 15px 230px;
+    text-align: center;
+    float: left;
+}
+.full-btn-right {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 230px 15px 250px;
+    text-align: center;
+    float: right;
+}
+.full-btn-left:hover {
+    background-color: rgba(29, 101, 168, 0.73);
+}
+.full-btn-right:hover {
+    background-color: rgba(29, 101, 168, 0.73);
+}
+.full-btn-orange-left {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 250px 15px 230px;
+    text-align: center;
+    float: left;
+}
+.full-btn-orange-right {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 230px 15px 250px;
+    text-align: center;
+    float: right;
+}
+.full-btn-orange-left:hover {
+    background-color: rgba(253, 98, 75, 0.78);
+}
+.full-btn-orange-right:hover {
+    background-color: rgba(253, 98, 75, 0.78);
+}
+.full-btn-green-left {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 250px 15px 230px;
+    text-align: center;
+    float: left;
+}
+.full-btn-green-right {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 230px 15px 250px;
+    text-align: center;
+    float: right;
+}
+.full-btn-green-left:hover {
+    background-color: rgba(55, 187, 95, 0.72);
+}
+.full-btn-green-right:hover {
+    background-color: rgba(55, 187, 95, 0.72);
+}
+.taylor-sign {
+	position: relative;
+	bottom: 5px;
+	right: 5px;
+}
+.signed {
+	line-height: 10px !important;
+}
+.text-center {
+	text-align: center;
+}
+.give-btn {
+	color: #fff;
+	background: rgba(29, 101, 168, 0.73);
+	border: 2px solid #FF9027;
+	padding: 10px 100px 10px 100px;
+	line-height: 50px;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+.give-btn:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #FF9027;
+	border-color: rgba(29, 101, 168, 0.73);
+}
+.top-btn {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.20);
+	margin: 20px auto 40px;
+	border: 2px solid #fff;
+	padding: 10px 20px 10px 20px;
+	line-height: 2.6;
+	-webkit-transition: .2s;
+	transition: .2s;
+	display: block;
+	max-width:600px
+}
+.top-btn:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #FF9027;
+	border-color: rgba(29, 101, 168, 0.73);
+}
+.top-btn-orange {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.20);
+	margin: 20px auto 19px;
+	border: 2px solid #fff;
+	padding: 10px 20px 10px 20px;
+	line-height: 2.6;
+	-webkit-transition: .2s;
+	transition: .2s;
+	display: block;
+	max-width:600px
+}
+.top-btn-orange:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(29, 101, 168, 0.73);
+	border-color: rgba(253, 98, 75, 0.78);
+}
+.top-btn-green {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.20);
+	margin: 20px auto 40px;
+	border: 2px solid #fff;
+	padding: 10px 20px 10px 20px;
+	line-height: 2.6;
+	-webkit-transition: .2s;
+	transition: .2s;
+	display: block;
+	max-width:600px
+}
+.top-btn-green:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #FF9027;
+	border-color: rgba(55, 187, 95, 0.72);
+}
+.spacer-25 {
+	padding: 25px;
+}
+.section-2-title {
+	padding: 0px 50px 5px 50px;
+}
+
+/*---------    2.0 Media Queries   ---------*/
+
+/*--- 2.1 Small Phones ---*/
+
+@media only screen and (max-width: 359px) {
+	.year-end-1 {
+		height: 1300px !important;
+	}
+    .year-end-2 {
+		height: 1475px !important;
+	}
+	.blue-box {
+		height: 1300px !important;
+	}
+    .green-box {
+		height: 1300px !important;
+	}
+    .orange-box {
+		height: 1475px !important;
+	}
+	.section-title h1 {
+		font-size: 23px !important;
+		line-height: 25px !important;
+	}
+	.section-title h1 strong {
+		font-size: 29px !important;
+		letter-spacing: 14px !important;
+	}
+	.section-title h2 {
+		font-size: 20px !important;
+	}
+    .img-orange {
+		margin-bottom: 18px !important;
+	}
+    .section-content p {
+        font-size: 18px !important;
+    }
+    .year-nav {
+        height: 51px;
+        margin-top: 200px;
+    }
+    .full-btn-left {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .full-btn-right {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .year-nav-blue {
+        height: 52px;
+        margin-top: 200px;
+    }
+    .full-btn-orange-left {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .full-btn-orange-right {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .full-btn-green-left {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .full-btn-green-right {
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+    }
+	.section-2-title h1 {
+		font-size: 31px !important;
+		letter-spacing: 10px !important;
+		line-height: 20px !important;
+	}
+	.section-2-title h2 {
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.section-2-title h1 strong {
+		font-size: 60px !important;
+		letter-spacing: 5px !important;
+		line-height: 35px !important;
+	}
+	.section-2-title h3 {
+		font-size: 16px !important;
+	}
+	.hard {
+		font-size: 15px !important;
+	}
+	.soft {
+		font-size: 17px !important;
+		line-height: 25px !important;
+	}
+    .soft-2 {
+		font-size: 17px !important;
+		line-height: 25px !important;
+	}
+}
+
+/*--- 2.2 Standard Phones ---*/
+
+@media only screen and (max-width: 767px) and (min-width: 360px){
+	.year-end-1 {
+		height: 1300px !important;
+	}
+    .year-end-2 {
+		height: 1475px !important;
+	}
+	.blue-box {
+		height: 1300px !important;
+	}
+    .green-box {
+		height: 1300px !important;
+	}
+    .orange-box {
+		height: 1475px !important;
+	}
+	.section-title h1 {
+		font-size: 26px !important;
+		line-height: 25px !important;
+	}
+	.section-title h1 strong {
+		font-size: 33px !important;
+		letter-spacing: 14px !important;
+	}
+	.section-title h2 {
+		font-size: 25px !important;
+	}
+	.img-blue {
+		margin-bottom: 25px !important;
+	}
+    .img-green {
+		margin-bottom: 25px !important;
+	}
+    .img-orange {
+		margin-bottom: 18px !important;
+	}
+    .section-content p {
+        font-size: 19px !important;
+    }
+    .year-nav {
+        height: 55px;
+        margin-top: 200px;
+    }
+    .full-btn-left {
+        padding: 15px 15px 15px 10px;
+    }
+    .full-btn-right {
+        padding: 15px 10px 15px 15px;
+    }
+    .year-nav-blue {
+        height: 56px;
+        margin-top: 200px;
+    }
+    .full-btn-orange-left {
+        padding: 15px 10px 15px 10px;
+    }
+    .full-btn-orange-right {
+        padding: 15px 10px 15px 10px;
+    }
+    .full-btn-green-left {
+        padding: 15px 15px 15px 10px;
+    }
+    .full-btn-green-right {
+        padding: 15px 10px 15px 15px;
+    }
+	.section-2-title hr {
+		margin-top: 25px !important;
+	}
+	.section-2-title h1 {
+		font-size: 40px !important;
+		letter-spacing: 10px !important;
+		line-height: 20px !important;
+	}
+	.section-2-title h2 {
+		font-size: 23px;
+		line-height: 45px;
+	}
+	.section-2-title h1 strong {
+		font-size: 61px !important;
+		letter-spacing: 5px !important;
+		line-height: 50px !important;
+	}
+	.section-2-title h3 {
+		font-size: 19px;
+	}
+	.hard {
+		font-size: 19px !important;
+	}
+	.soft {
+		font-size: 21px !important;
+		line-height: 25px !important;
+	}
+    .soft-2 {
+		font-size: 21px !important;
+		line-height: 15px !important;
+	}
+}
+
+/*--- 2.3 Large Phones --- */
+
+@media only screen and (max-width: 799px) and (min-width: 768px) {
+	.year-end-1 {
+		height: 1150px !important;
+	}
+    .year-end-2 {
+		height: 1150px !important;
+	}
+	.blue-box {
+		height: 1150px !important;
+	}
+    .green-box {
+		height: 1050px !important;
+	}
+    .orange-box {
+		height: 1050px !important;
+	}
+	.section-title h1 {
+		font-size: 41px !important;
+		line-height: 35px !important;
+	}
+	.section-title h1 strong {
+		font-size: 56px !important;
+	}
+	.section-title h2 {
+		font-size: 30px !important;
+	}
+    .section-content p {
+        font-size: 19px !important;
+    }
+    .year-nav {
+        height: 55px;
+    }
+    .full-btn-left {
+        padding: 15px 130px 15px 100px;
+    }
+    .full-btn-right {
+        padding: 15px 100px 15px 130px;
+    }
+    .year-nav-blue {
+        height: 56px;
+    }
+    .full-btn-orange-left {
+        padding: 15px 125px 15px 100px;
+    }
+    .full-btn-orange-right {
+        padding: 15px 100px 15px 125px;
+    }
+    .full-btn-green-left {
+        padding: 15px 130px 15px 100px;
+    }
+    .full-btn-green-right {
+        padding: 15px 100px 15px 130px;
+    }
+	.section-2-title h1 {
+		font-size: 36px !important;
+		letter-spacing: 5px !important;
+		line-height: 15px !important;
+	}
+	.section-2-title h2 {
+		font-size: 18px;
+		line-height: 20px !important;
+	}
+	.section-2-title h1 strong {
+		font-size: 59px !important;
+		letter-spacing: 5px !important;
+		line-height: 25px !important;
+	}
+	.section-2-title h3 {
+		font-size: 15px !important;
+		line-height: 5px !important;
+	}
+	.hard {
+		font-size: 15px !important;
+	}
+	.soft {
+		font-size: 16px !important;
+		line-height: 10px !important;
+	}
+    .soft-2 {
+		font-size: 16px !important;
+		line-height: 10px !important;
+	}
+}
+
+/*--- 2.4 Tablets ---*/
+
+@media only screen and (max-width: 979px) and (min-width: 800px) {
+	.year-end-1 {
+		height: 1150px !important;
+	}
+    .year-end-2 {
+		height: 1150px !important;
+	}
+	.blue-box {
+		height: 1150px !important;
+	}
+    .green-box {
+		height: 1050px !important;
+	}
+    .orange-box {
+		height: 1050px !important;
+	}
+	.section-title h1 {
+		font-size: 45px !important;
+		line-height: 50px !important;
+	}
+	.section-title h1 strong {
+		font-size: 64px !important;
+	}
+	.section-title h2 {
+		font-size: 35px !important;
+	}
+    .section-content p {
+        font-size: 19px !important;
+    }
+    .year-nav {
+        height: 55px;
+    }
+    .full-btn-left {
+        padding: 15px 100px 15px 145px;
+    }
+    .full-btn-right {
+        padding: 15px 145px 15px 100px;
+    }
+    .year-nav-blue {
+        height: 56px;
+    }
+    .full-btn-green-left {
+        padding: 15px 100px 15px 145px;
+    }
+    .full-btn-green-right {
+        padding: 15px 145px 15px 100px;
+    }
+    .full-btn-orange-left {
+        padding: 15px 100px 15px 140px;
+    }
+    .full-btn-orange-right {
+        padding: 15px 140px 15px 100px;
+    }
+	.section-2-title h1 {
+		font-size: 26px !important;
+		line-height: 15px !important;
+	}
+	.section-2-title h2 {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	.section-2-title h1 strong {
+		font-size: 55px !important;
+		line-height: 40px !important;
+	}
+	.section-2-title h3 {
+		font-size: 15px;
+	}
+	.hard {
+		font-size: 16px !important;
+	}
+	.soft {
+		font-size: 18px !important;
+		line-height: 10px !important;
+	}
+    .soft-2 {
+		font-size: 18px !important;
+		line-height: 10px !important;
+	}
+}
+
+/*--- 2.5 Small Displays ---*/
+
+@media only screen and (max-width: 1279px) and (min-width: 980px) {
+	.year-end-1 {
+		height: 1055px !important;
+	}
+    .year-end-2 {
+		height: 1055px !important;
+	}
+	.blue-box {
+		height: 1055px !important;
+	}
+    .green-box {
+		height: 1055px !important;
+	}
+    .orange-box {
+		height: 1055px !important;
+	}
+	.section-title h1 {
+		font-size: 55px !important;
+	}
+	.section-title h1 strong {
+		font-size: 80px !important;
+	}
+	.section-title h2 {
+		font-size: 40px !important;
+	}
+    .year-nav {
+        height: 55px;
+    }
+    .full-btn-left {
+        padding: 15px 175px 15px 160px;
+    }
+    .full-btn-right {
+        padding: 15px 160px 15px 175px;
+    }
+    .year-nav-blue {
+        height: 56px;
+    }
+    .full-btn-green-left {
+        padding: 15px 175px 15px 160px;
+    }
+    .full-btn-green-right {
+        padding: 15px 160px 15px 175px;
+    }
+    .full-btn-orange-left {
+        padding: 15px 175px 15px 155px;
+    }
+    .full-btn-orange-right {
+        padding: 15px 155px 15px 175px;
+    }
+	.section-2-title h1 {
+		font-size: 42px !important;
+	}
+	.section-2-title h2 {
+		font-size: 26px;
+	}
+	.section-2-title h1 strong {
+		font-size: 80px !important;
+		line-height: 40px !important;
+	}
+	.section-2-title h3 {
+		font-size: 22px !important;
+	}
+	.hard {
+		font-size: 22px !important;
+	}
+	.soft {
+		font-size: 24px !important;
+		line-height: 25px !important;
+	}
+    .soft-2 {
+		font-size: 24px !important;
+		line-height: 25px !important;
+	}
+}
+
+/*--- 2.6 Large Displays ---*/
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+/* Nathan's Changes */
+
+.white-box.giving {
+    clear: both;
+    display: block;
+    padding: 50px 0 !important;
+}
+
+.breaker-bar {
+    background: rgba(29, 101, 168, 0.73) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 44px;
+    padding: 20px 0;
+    text-align: center;
+		margin-top:30px;
+		display: block;
+		clear: both;
+}
+.breaker-bar h3 {
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+		font-weight:500;
+}
+#fo44li5 fieldset div span input:checked + label {
+    background: #FF9027 none repeat scroll 0 0;
+    color: #fff;
+}
+#saveForm, #submitFormButton, #nextPageButton {
+    cursor: pointer;
+}
