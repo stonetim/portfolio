@@ -129,6 +129,10 @@ a:hover {
 	height: 500px;
 }
 
+.hero-img3 img {
+	min-width: 100% !important;
+}
+
 .color-box {
 	background-color: rgb(117, 37, 62);
   color: #ddd;
