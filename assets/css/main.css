@@ -371,7 +371,7 @@ input, select, textarea {
 	}
 
 	.gallery-contain {
-		margin: 1.25rem 0 0 1.25rem;
+		margin: 1.25rem 0 1.25rem 1.25rem;
 		outline: 0;
 		position: relative;
 		width: calc(50% - 1.25rem);
