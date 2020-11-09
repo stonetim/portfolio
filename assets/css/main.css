@@ -360,14 +360,10 @@ input, select, textarea {
 	}
 
 	.inline-link {
+		font-weight: 500 !important;
+		color: #43d9b8 !important;
 		display: inline-block !important;
-		width: auto !important;
 		margin: 0 !important;
-	}
-
-	.bold-link {
-		font-weight: 500;
-		color: #43d9b8;
 	}
 
 	.gallery-contain {
@@ -381,6 +377,15 @@ input, select, textarea {
 	.in-gal-contain {
 		width: 100% !important;
 		margin: 0 !important;
+	}
+
+	.caption-small {
+		margin: 0 0 2rem 1.5rem;
+		font-size: 1rem;
+	}
+
+	.foot-list {
+		margin: 1vh !important;
 	}
 
 /* Row */
@@ -2043,6 +2048,14 @@ input, select, textarea {
 
 		}
 
+		.head-button {
+			display: inline-block;
+			position: relative;
+			top: 50%;
+			left: 20%;
+			margin: 0 0 0 5vh;
+		}
+
 /* Form */
 
 	form {
@@ -2548,6 +2561,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				z-index: -1 !important;
 			}
 
 			.gal-small {
@@ -3421,7 +3435,8 @@ input, select, textarea {
 			color: rgba(0, 0, 0, 0.25);
 			font-size: 1rem;
 			position: relative;
-			width: 30vw;
+			top: 100%;
+			width: 50vw;
 		}
 
 			#wrapper .copyright a {
