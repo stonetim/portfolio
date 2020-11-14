@@ -3274,7 +3274,6 @@ input, select, textarea {
 		#wrapper:before {
 			background-attachment: fixed;
 			background-color: #49fcd4;
-			background-image: url("../../images/head-img/geometric.png");
 			background-position: -10% 0%;
 			background-repeat: no-repeat;
 			background-size: 25% auto;
