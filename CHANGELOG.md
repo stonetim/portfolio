@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.0.4] - 2026-03-21
+### Added
+- Project data model (src/data/projects.js) with schema for portfolio items
+- Initial project entries from existing portfolio (will update before release)
+
 ## [3.0.3] - 2026-03-21
 ### Added
 - Hero component
