@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.5] - 2026-05-14
+### Added
+- PortfolioGrid component with responsive card layout
+- ProjectCard component with thumbnail, title, and tech tag icons
+- ProjectModal component with full screenshot, description, See Site/See Code links
+- Tag-to-icon mapping utility using react-icons/si
+- Escape key and backdrop click to dismiss modal
+- Body scroll lock when modal is open
+
+### Changed
+- Standardized component file naming to PascalCase
+- Fixed SiCss3 to SiCss for react-icons compatibility
+
 ## [3.0.4] - 2026-03-21
 ### Added
 - Project data model (src/data/projects.js) with schema for portfolio items
